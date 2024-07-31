@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import QuizHeader from './Components/QuizPlayground/QuizHeader';
+import QuizBody from './Components/QuizPlayground/QuizBody';
+
 
 
 
@@ -9,7 +10,7 @@ function App() {
   return (
   <>
   <div><Header></Header></div>
-  <div><QuizHeader></QuizHeader></div>
+  <div><QuizBody></QuizBody></div>
   </>
   );
 
